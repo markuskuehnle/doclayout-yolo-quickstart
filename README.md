@@ -2,6 +2,8 @@
 
 Detect layout elements in PDFs (titles, text, figures, tables) and extract text with OCR using DocLayout-YOLO.
 
+![Example Output](data/output/2410.12628v1_page_8_annotated.png)
+
 ## Quick Start
 
 1. Clone this repo
@@ -56,8 +58,3 @@ results[0].show()
 - [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO) - Original repo & paper
 - [Paper](https://arxiv.org/abs/2410.12628) - arXiv:2410.12628
 - [PDF-Extract-Kit](https://github.com/opendatalab/PDF-Extract-Kit) - Full extraction toolkit
-
-## License
-
-Following the original DocLayout-YOLO license (AGPL-3.0)
-
